@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer For Edit - Delnart</title>
+    <link rel="icon" type="image/png" href="dolphin del.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add a digital font from Google Fonts or CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div class="timer-container">
+  <p class="timer-label" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+    <img src="dolphin del.png" alt="Delnart logo" style="height: 28px; width: 28px; border-radius: 50%; object-fit: cover;">
+    By Delnart
+  </p>
+  <label for="targetTime" class="timer-label">Enter time (seconds "10" - minute "1:10")</label>
+  <div class="input-row">
+    <input type="text" id="targetTime" value="10" placeholder="sec or mm:ss">
+    <button id="startBtn" class="fancy-btn">Start</button>
+  </div>
+  <canvas id="timerCanvas"></canvas>
+</div>
+   
+</body>
+</html>
+
+
